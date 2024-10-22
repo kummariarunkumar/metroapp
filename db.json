@@ -1,0 +1,521 @@
+{
+  "users": [
+    {
+      "username": "user1",
+      "password": "password123",
+      "id": "0e2b"
+    },
+    {
+      "username": "user2",
+      "password": "mypassword456",
+      "id": "5e3a"
+    },
+    {
+      "username": "user3",
+      "password": "pass789word",
+      "id": "ca9b"
+    }
+  ],
+  "train": [
+    {
+      "train_name": "Express 101",
+      "train_number": "101",
+      "from_station": "City A",
+      "to_station": "City B",
+      "distance_km": 450,
+      "stops": [
+        {
+          "station_name": "Station 1",
+          "station_code": "STA1",
+          "distance_from_start": 0
+        },
+        {
+          "station_name": "Station 2",
+          "station_code": "STA2",
+          "distance_from_start": 150
+        },
+        {
+          "station_name": "Station 3",
+          "station_code": "STA3",
+          "distance_from_start": 300
+        },
+        {
+          "station_name": "Station 4",
+          "station_code": "STA4",
+          "distance_from_start": 450
+        }
+      ],
+      "id": "a889"
+    },
+    {
+      "train_name": "Superfast 202",
+      "train_number": "202",
+      "from_station": "City C",
+      "to_station": "City D",
+      "distance_km": 600,
+      "stops": [
+        {
+          "station_name": "Station A",
+          "station_code": "STAA",
+          "distance_from_start": 0
+        },
+        {
+          "station_name": "Station B",
+          "station_code": "STAB",
+          "distance_from_start": 200
+        },
+        {
+          "station_name": "Station C",
+          "station_code": "STAC",
+          "distance_from_start": 400
+        },
+        {
+          "station_name": "Station D",
+          "station_code": "STAD",
+          "distance_from_start": 600
+        }
+      ],
+      "id": "7ad5"
+    },
+    {
+      "train_name": "Regional 303",
+      "train_number": "303",
+      "from_station": "City E",
+      "to_station": "City F",
+      "distance_km": 300,
+      "stops": [
+        {
+          "station_name": "Station X",
+          "station_code": "STAX",
+          "distance_from_start": 0
+        },
+        {
+          "station_name": "Station Y",
+          "station_code": "STAY",
+          "distance_from_start": 150
+        },
+        {
+          "station_name": "Station Z",
+          "station_code": "STAZ",
+          "distance_from_start": 300
+        }
+      ],
+      "id": "b65a"
+    },
+    {
+      "train_name": "Metro 404",
+      "train_number": "404",
+      "from_station": "City G",
+      "to_station": "City H",
+      "distance_km": 100,
+      "stops": [
+        {
+          "station_name": "Station L",
+          "station_code": "STAL",
+          "distance_from_start": 0
+        },
+        {
+          "station_name": "Station M",
+          "station_code": "STAM",
+          "distance_from_start": 50
+        },
+        {
+          "station_name": "Station N",
+          "station_code": "STAN",
+          "distance_from_start": 100
+        }
+      ],
+      "id": "4537"
+    },
+    {
+      "train_name": "Coastal 505",
+      "train_number": "505",
+      "from_station": "City I",
+      "to_station": "City J",
+      "distance_km": 550,
+      "stops": [
+        {
+          "station_name": "Station P",
+          "station_code": "STAP",
+          "distance_from_start": 0
+        },
+        {
+          "station_name": "Station Q",
+          "station_code": "STAQ",
+          "distance_from_start": 275
+        },
+        {
+          "station_name": "Station R",
+          "station_code": "STAR",
+          "distance_from_start": 550
+        }
+      ],
+      "id": "3fbd"
+    }
+  ],
+  "pnrDetails": [
+    {
+      "pnr": "1234567890",
+      "trainNumber": "12456",
+      "trainName": "Rajdhani Express",
+      "boardingStation": "NDLS",
+      "destinationStation": "BCT",
+      "class": "1A",
+      "passengerCount": 2,
+      "status": "Confirmed",
+      "dateOfJourney": "2024-09-25",
+      "id": "b77d"
+    },
+    {
+      "pnr": "9876543210",
+      "trainNumber": "12987",
+      "trainName": "Garib Rath",
+      "boardingStation": "BCT",
+      "destinationStation": "NDLS",
+      "class": "3A",
+      "passengerCount": 4,
+      "status": "RAC",
+      "dateOfJourney": "2024-09-30",
+      "id": "8808"
+    },
+    {
+      "pnr": "1122334455",
+      "trainNumber": "12625",
+      "trainName": "Kerala Express",
+      "boardingStation": "ERS",
+      "destinationStation": "NZM",
+      "class": "2A",
+      "passengerCount": 3,
+      "status": "WL",
+      "dateOfJourney": "2024-10-05",
+      "id": "c0dc"
+    },
+    {
+      "pnr": "6677889900",
+      "trainNumber": "12301",
+      "trainName": "Howrah Rajdhani",
+      "boardingStation": "HWH",
+      "destinationStation": "NDLS",
+      "class": "1A",
+      "passengerCount": 1,
+      "status": "Confirmed",
+      "dateOfJourney": "2024-09-27",
+      "id": "be8e"
+    },
+    {
+      "pnr": "2233445566",
+      "trainNumber": "12015",
+      "trainName": "Ajmer Shatabdi",
+      "boardingStation": "NDLS",
+      "destinationStation": "AII",
+      "class": "CC",
+      "passengerCount": 5,
+      "status": "Confirmed",
+      "dateOfJourney": "2024-09-28",
+      "id": "7f99"
+    },
+    {
+      "pnr": "9988776655",
+      "trainNumber": "12623",
+      "trainName": "Trivandrum Express",
+      "boardingStation": "NZM",
+      "destinationStation": "TVC",
+      "class": "2A",
+      "passengerCount": 2,
+      "status": "WL",
+      "dateOfJourney": "2024-10-03",
+      "id": "5cf4"
+    },
+    {
+      "pnr": "3344556677",
+      "trainNumber": "12842",
+      "trainName": "Coromandel Express",
+      "boardingStation": "MAS",
+      "destinationStation": "HWH",
+      "class": "SL",
+      "passengerCount": 3,
+      "status": "RAC",
+      "dateOfJourney": "2024-09-29",
+      "id": "94bf"
+    },
+    {
+      "pnr": "4455667788",
+      "trainNumber": "12647",
+      "trainName": "Kongu Express",
+      "boardingStation": "CBE",
+      "destinationStation": "NZM",
+      "class": "3A",
+      "passengerCount": 6,
+      "status": "Confirmed",
+      "dateOfJourney": "2024-10-01",
+      "id": "b19e"
+    },
+    {
+      "pnr": "5566778899",
+      "trainNumber": "12244",
+      "trainName": "Duronto Express",
+      "boardingStation": "LTT",
+      "destinationStation": "ERS",
+      "class": "2A",
+      "passengerCount": 4,
+      "status": "WL",
+      "dateOfJourney": "2024-10-04",
+      "id": "844d"
+    },
+    {
+      "pnr": "6677889901",
+      "trainNumber": "12138",
+      "trainName": "Punjab Mail",
+      "boardingStation": "CSTM",
+      "destinationStation": "FZR",
+      "class": "SL",
+      "passengerCount": 2,
+      "status": "RAC",
+      "dateOfJourney": "2024-09-26",
+      "id": "ed29"
+    }
+  ],
+  "trains": [
+    {
+      "train_number": "12345",
+      "train_name": "AmruthBharath Express",
+      "from_station": "Delhi",
+      "to_station": "Vijayawada",
+      "date": "2024-09-25",
+      "cancelled": true,
+      "id": "e9df"
+    },
+    {
+      "train_number": "80747",
+      "train_name": "Ap Express",
+      "from_station": "Delhi",
+      "to_station": "Warangal",
+      "date": "2024-09-25",
+      "cancelled": false,
+      "id": "23c2"
+    },
+    {
+      "train_number": "09876",
+      "train_name": "Jammu Tavi superfast express",
+      "from_station": "Kanyakumari",
+      "to_station": "Katra",
+      "date": "2024-09-25",
+      "cancelled": true,
+      "id": "50fc"
+    }
+  ],
+  "trainstatus": [
+    {
+      "trainNumber": "101",
+      "trainName": "Amritsar Express",
+      "status": "On Time",
+      "currentStation": "Station 1",
+      "arrivalTime": "2024-09-22T09:00:00Z",
+      "departureTime": "2024-09-22T09:15:00Z",
+      "id": "7417"
+    },
+    {
+      "trainNumber": "202",
+      "trainName": "Shatabdhi Express",
+      "status": "Delayed",
+      "currentStation": "Station B",
+      "arrivalTime": "2024-09-22T10:00:00Z",
+      "departureTime": "2024-09-22T10:30:00Z",
+      "id": "d355"
+    },
+    {
+      "trainNumber": "303",
+      "trainName": "Vandabharath Express",
+      "status": "On Time",
+      "currentStation": "Station X",
+      "arrivalTime": "2024-09-22T11:00:00Z",
+      "departureTime": "2024-09-22T11:10:00Z",
+      "id": "0838"
+    },
+    {
+      "trainNumber": "404",
+      "trainName": "Rathnachal Express",
+      "status": "Cancelled",
+      "currentStation": "Station L",
+      "arrivalTime": "2024-09-22T12:00:00Z",
+      "departureTime": "2024-09-22T12:15:00Z",
+      "id": "bc58"
+    },
+    {
+      "trainNumber": "505",
+      "trainName": "Humsafar Superfast express",
+      "status": "On Time",
+      "currentStation": "Station P",
+      "arrivalTime": "2024-09-22T13:00:00Z",
+      "departureTime": "2024-09-22T13:10:00Z",
+      "id": "42b9"
+    },
+    {
+      "trainNumber": "606",
+      "trainName": "GrandTrunk Express",
+      "status": "Delayed",
+      "currentStation": "Station D",
+      "arrivalTime": "2024-09-22T14:00:00Z",
+      "departureTime": "2024-09-22T14:20:00Z",
+      "id": "12b0"
+    },
+    {
+      "trainNumber": "707",
+      "trainName": "Telangana Express",
+      "status": "On Time",
+      "currentStation": "Station M",
+      "arrivalTime": "2024-09-22T15:00:00Z",
+      "departureTime": "2024-09-22T15:15:00Z",
+      "id": "1f21"
+    },
+    {
+      "trainNumber": "808",
+      "trainName": "AP Express",
+      "status": "On Time",
+      "currentStation": "Station Q",
+      "arrivalTime": "2024-09-22T16:00:00Z",
+      "departureTime": "2024-09-22T16:10:00Z",
+      "id": "6bfc"
+    },
+    {
+      "trainNumber": "909",
+      "trainName": "Lingamaplli Express",
+      "status": "On Time",
+      "currentStation": "Station R",
+      "arrivalTime": "2024-09-22T17:00:00Z",
+      "departureTime": "2024-09-22T17:10:00Z",
+      "id": "0b7c"
+    },
+    {
+      "trainNumber": "1001",
+      "trainName": "Chennai Express",
+      "status": "On Time",
+      "currentStation": "Station T",
+      "arrivalTime": "2024-09-22T18:00:00Z",
+      "departureTime": "2024-09-22T18:10:00Z",
+      "id": "aa55"
+    }
+  ],
+  "runningtrains": [
+    {
+      "train_name": "Rajadahi Shatabdhi express",
+      "train_number": "101",
+      "from_station": "vijayawada",
+      "to_station": "guntur",
+      "date_of_journey": "2024-09-25",
+      "id": "a889"
+    },
+    {
+      "train_name": "Superfastrayadu express",
+      "train_number": "202",
+      "from_station": "vijayawada",
+      "to_station": "mangalgiri",
+      "date_of_journey": "2024-09-30",
+      "id": "7ad5"
+    },
+    {
+      "train_name": "Regional SuperFast Express",
+      "train_number": "303",
+      "from_station": "vijayawada",
+      "to_station": "tenali",
+      "date_of_journey": "2024-09-25",
+      "id": "b65a"
+    },
+    {
+      "train_name": "MetroExpress",
+      "train_number": "404",
+      "from_station": "vijayawada",
+      "to_station": "hyderabad",
+      "date_of_journey": "2024-09-30",
+      "id": "4537"
+    },
+    {
+      "train_name": "CoastalTrunk",
+      "train_number": "505",
+      "from_station": "vijayawada",
+      "to_station": "warangal",
+      "date_of_journey": "2024-09-29",
+      "id": "3fbd"
+    },
+    {
+      "train_name": "Intercity Express",
+      "train_number": "606",
+      "from_station": "mumbai",
+      "to_station": "chennai",
+      "date_of_journey": "2024-09-25",
+      "id": "b1f2"
+    },
+    {
+      "train_name": "Express120",
+      "train_number": "707",
+      "from_station": "delhi",
+      "to_station": "agra",
+      "date_of_journey": "2024-09-26",
+      "id": "a2b3"
+    },
+    {
+      "train_name": "FastTrack",
+      "train_number": "808",
+      "from_station": "punjab",
+      "to_station": "jalandhar",
+      "date_of_journey": "2024-09-30",
+      "id": "c4d5"
+    },
+    {
+      "train_name": "saywow Express",
+      "train_number": "909",
+      "from_station": "hyderabad",
+      "to_station": "nirmal",
+      "date_of_journey": "2024-09-27",
+      "id": "e6f7"
+    },
+    {
+      "train_name": "Sunsetevening",
+      "train_number": "1010",
+      "from_station": "nirmal",
+      "to_station": "adilabad",
+      "date_of_journey": "2024-09-28",
+      "id": "g8h9"
+    },
+    {
+      "train_name": "Oceanicshark",
+      "train_number": "1111",
+      "from_station": "srisailam",
+      "to_station": "karnool",
+      "date_of_journey": "2024-09-29",
+      "id": "i0j1"
+    },
+    {
+      "train_name": "Forestpuli",
+      "train_number": "1212",
+      "from_station": "vijayawada",
+      "to_station": "tirupathi",
+      "date_of_journey": "2024-09-25",
+      "id": "k2l3"
+    },
+    {
+      "train_name": "MountainDue",
+      "train_number": "1313",
+      "from_station": "agra",
+      "to_station": "haryana",
+      "date_of_journey": "2024-09-26",
+      "id": "m4n5"
+    },
+    {
+      "train_name": "Flykaro",
+      "train_number": "1414",
+      "from_station": "haryana",
+      "to_station": "amrithsar",
+      "date_of_journey": "2024-09-30",
+      "id": "o6p7"
+    },
+    {
+      "train_name": "Bikerider",
+      "train_number": "1515",
+      "from_station": "sitara",
+      "to_station": "chittinagar",
+      "date_of_journey": "2024-09-27",
+      "id": "q8r9"
+    }
+  ]
+}
